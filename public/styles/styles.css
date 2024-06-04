@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post-item {
+    gap: 30px;
+}
+
+.post-item:hover .post-buttons {
+    display: block;
+}
+
+.post-buttons {
+    display: none;
+}
+
+
+.btn-link {
+    border: none;
+    background: transparent;
+}
+
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+
+.edit-post-btn:hover {
+    color: green;
+}
+
+.delete-post-btn:hover {
+    color: red;
+}
